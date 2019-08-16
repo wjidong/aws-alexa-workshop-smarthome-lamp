@@ -10,9 +10,10 @@ import json
 import time
 import qrcode
 
-iotEndpoint = "<xxx>-ats.iot.<region>.amazonaws.com"
+iotEndpoint = "a3k26m28xzm9oi-ats.iot.us-east-1.amazonaws.com
+"
 thingName = "ratchet"
-deviceBindingURL = "<your-device-bind-url>"
+deviceBindingURL = "https://master.d1if7urdnom2vz.amplifyapp.com"
 
 # Generate QR code for device binding
 img = qrcode.make(deviceBindingURL + "?thingName=" + thingName)
